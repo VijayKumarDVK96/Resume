@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+ul li {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.top-content {
+    text-align: center;
+}
+
+.contact-details ul>li:before{
+    content: "";
+    display: list-item;
+    position: absolute;
+}
+
+.contact-details ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.intro {
+    font-style: italic;
+}
+
+.section-heading {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin: 15px 0;
+}
+
+.professional-experience ul {
+    margin-top: 0;
+}
+
+.experiences p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.section-block ul li {
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.education ul li, .certification ul li {
+    list-style-type: none;
+    line-height: 20px;
+}
+.bottom-content {
+    margin: 15px 0;
+}
+
+.bottom-content p {
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
